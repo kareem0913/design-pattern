@@ -6,5 +6,5 @@ public interface Observable {
     void registerObserver(Observer observer);
     void removeObserver(Observer observer);
     void notifyObservers(String state);
-    public void changeState(String state);
+    void changeState(String state);
 }
